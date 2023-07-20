@@ -1,0 +1,23 @@
+.bannerBgImage{
+    height: 100vh;
+    background: url("https://wallpapercave.com/wp/wp5320845.jpg");
+    background-size: cover;
+    position: relative;
+}
+.bannerBgImage::after{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.5);
+}
+.bannerText{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #fff;
+}

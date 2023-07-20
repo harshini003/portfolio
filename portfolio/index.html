@@ -1,0 +1,386 @@
+<!doctype html>
+<html lang="en">
+
+<>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>coder portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">   
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+
+  />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Hind&display=swap');
+    
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Hind', sans-serif;
+        }
+        .bannerBgImage {
+            height: 100vh;
+            background: url("https://wallpapercave.com/wp/wp5320845.jpg");
+            background-size: cover;
+            position: relative;
+        }
+
+        .bannerBgImage::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+
+        .bannerText {
+            text-align: center;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff;
+        }
+
+        .bannerTitle {
+            font-size: 60px;
+            font-weight: 700;
+            margin-bottom: 20px;
+        }
+
+        .bannerDesc {
+            font-size: 20px;
+            font-weight: 400;
+        }
+        .card{
+          cursor: pointer;
+        }
+        .card:hover{
+          background-color: rgb(145, 134, 134);
+          border: 5px solid rgb(51, 95, 112);
+          transform: scale(1.1);
+          transition: all 0.5s ease-in-out;
+        }
+        .BIcon{
+          width: 100%;
+          text-align: center;
+          font-size: 40px;
+        }
+        .BIcon:hover{
+          color: rgb(51, 95, 112);
+        }
+        .img-fluid:hover{
+          border: 3px solid rgb(51, 95, 112);
+          transform: scale(1.1);
+          box-shadow: 4px;
+
+        }
+        .img-fluid{
+          transition: all 0.5s ease-in-out;
+        }
+        .card-img-top{
+          height: 50vh;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand  animate__animated animate__pulse animate__infinite	infinite" href="/"> HARSHINI</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link " href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">about</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="#portfolio">Portfolio</a>
+                    </li>
+                    <li>
+                        <a class="nav-link " href="#contact">contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- end navbar -->
+    <!--banner start-->
+    <section class="bannerBgImage" id="home">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12 bannerText">
+                    <div class="banner">
+                        <div class="banner-text">
+                            <h2 class="bannerTitle animate__backInLeft animate__animated">HI THERE!!</h2>
+                            <p class="bannerDesc">A sophomore web Developer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--banner end-->
+    <!--about start-->
+    <section>
+        <div class="container" id="about">
+            <h1 class="text-center">about me</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Nnx8cG9ydHJhaXR8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=1000&q=60"
+                        alt="passportpicture" class="card-img img-fluid">
+                </div>
+                <div class="col-md-8">
+                    <p> ABOUT ME</p>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <ul>Name: TELAPROLU SAI SRI HARSHINI</ul>
+                            <ul>Age: 20</ul>
+                            <ul>Occupation:STUDENT </ul>
+                            <ul>AREA OF INTREST: WEB DEVELOPER </ul>
+
+
+                        </div>
+                        <div class="col-md-6">
+                            <ul>
+                                <li>Technologies Working on: MERN STACK</li>
+                                <li>Portfolio:<a href="http://www.google.com" target="_blank" rel="noopener noreferrer"
+                                        class="text-decoration-none"> Click Here for Portfolio</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-12">
+                            <p>Zeal of working with innovative and honest. Seeking a position at industrial level, where
+                              the strategic focus on delighting users aligns with my creativity and desire to enhance
+                              industrial knowledge experience.
+
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            .
+        </div>
+    </section>
+    <!--about end-->
+    <!--services start-->
+    <section id="services">
+        <div class="container">
+            <h1 class="text-center">
+                services</h1>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card w-75 mb-3 my-3">
+                        <div class="card-body">
+                            <h5 class="card-title text-center" ><i class="bi bi-filetype-html BIcon"></i>Web Developer</h5>
+                            <p class="card-text" font-size="20">With supporting text below as a natural lead-in to additional content.
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card w-75 mb-3 my-3">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i>Web Developer</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card w-75 mb-3 my-3">
+                        <div class="card-body">
+                            <h5 class="card-title text-center"><i class="bi bi-filetype-html BIcon"></i>Web Developer</h5>
+                            <p class="card-text">With supporting text below as a natural lead-in to additional content.
+
+                            </p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+              <div class="col-md-4">
+                  <div class="card w-75 mb-3 my-3">
+                      <div class="card-body">
+                          <h5 class="card-title text-center"> <i class="bi bi-filetype-html BIcon"></i>Web Developer</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.
+
+                          </p>
+
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card w-75 mb-3 my-3">
+                      <div class="card-body">
+                          <h5 class="card-title text-center"> <i class="bi bi-filetype-html BIcon"></i>Web Developer</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.
+
+                          </p>
+
+                      </div>
+                  </div>
+              </div>
+              <div class="col-md-4">
+                  <div class="card w-75 mb-3 my-3">
+                      <div class="card-body ">
+                          <h5 class="card-title text-center"> <i class="bi bi-filetype-html BIcon"></i>Web Developer</h5>
+                          <p class="card-text">With supporting text below as a natural lead-in to additional content.
+
+                          </p>
+
+                      </div>
+                  </div>
+              </div>
+          </div>
+            </h1>
+        </div>
+
+    </section>
+    <!--services end-->
+    <!--portfolio start-->
+    <section id=""portfolio>
+      <div class="container">
+        <h1 class="text-center">Portfolio</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img src="card-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img src="card-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+
+          </div>
+
+          
+        </div>
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img src="card-1.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+
+          </div>
+          <div class="col-md-6">
+            <div class="card mb-3">
+              <img src="card-2.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Card title</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+              </div>
+            </div>
+
+          </div>
+
+          
+        </div>
+      </div>
+
+    </section>
+
+    <!--portfolio end-->
+    <!--contact start-->
+    <section id="contact">
+      <div class="container-fluid">
+        <h1 class="text-center">contact with me</h1>
+        <div class="row">
+          <div class="col-md-6"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61263.80386609409!2d80.43451860000002!3d16.32357060000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a4a755cb1787785%3A0x9f7999dd90f1e694!2sGuntur%2C%20Andhra%20Pradesh!5e0!3m2!1sen!2sin!4v1687557519050!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+          <div class="col-md-6">
+            <form>
+              <div class="mb-3">
+                <label for="fullName" class="form-label">Full Name</label>
+                <input type="email" class="form-control" id="Form-Control" placeholder="Enter Your Full Name">
+                </div>
+
+                <div class="mb-3">
+                  <label for="emailInput" class="form-label">Email Address</label>
+                  <input type="email" class="form-control" id="emailInput" placeholder="Enter Your Email Address">
+              </div>
+
+              <div class="mb-3">
+                <label for="teleInput" class="form-label">Contact Number</label>
+                <input type="email" class="form-control" id="emailInput" placeholder="Enter Your Contact Numbers">
+            </div>
+              
+              <div class="mb-3">
+                <label for="textarea" class="form-label">Enter your Query here</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Type your query here"></textarea>
+              </div>
+              <div class="col-auto">
+                <button type="submit" class="btn btn-primary mb-3">Submit</button>
+              </div>
+            </form>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+    <!--contact end-->
+    <!--footer start-->
+    <footer id="footer">
+      <div class="container-fluid bg-dark py-2">
+        <div class="mt-4 text-center px-1">
+          <a href="http://www.fb.com" target="_blank" rel=""noopener noreferrer>
+          <i class="bi bi-facebook BIcon"></i></a>
+          <a href="http://www.twitter.com" target="_blank" rel=""noopener noreferrer>
+          <i class="bi bi-twitter BIcon"></i> </a>
+          <a href="http://www.instagram.com" target="_blank" rel=""noopener noreferrer>
+          <i class="bi bi-instagram BIcon"></i></a> 
+          <a href="http://www.linkedin.com" target="_blank" rel=""noopener noreferrer>
+          <i class="bi bi-linkedin BIcon"></i></a>
+          <a href="http://www.github.com" target="_blank" rel=""noopener noreferrer>
+          <i class="bi bi-github BIcon"></i></a>
+        </div>
+      </div>
+    </footer>
+    <!--footer end-->
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
